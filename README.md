@@ -34,6 +34,21 @@
 
 ![screenshot](https://raw.githubusercontent.com/ViniciusmDias/404-not-found-page/master/public/404-demo.png)
 
+To solve this challenge I used React with Typescript, using the create-react-app template.
+I used styled components to style the application and I created a test to check if the page is rendered.
+This application is hosted on Netlify.
+
+To start the application, just go to the root folder and execute the following commands:
+
+Install the dependencies:
+`yarn install`
+
+Start the application in development mode:
+`yarn start`
+
+Run the tests:
+`yarn test: coverage`
+
 ### Built With
 
 - [React](https://reactjs.org/)
