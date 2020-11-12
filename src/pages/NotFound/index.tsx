@@ -1,16 +1,17 @@
 import React from 'react';
 import homeIcon from '../../assets/scarecrow.png';
 import { Container } from './styles';
-import {} from 'module';
 
 const NotFound: React.FC = () => {
   return (
-    <Container>
+    <Container data-testid="notfound-container">
       <header>
         <h2>404 NOT FOUND</h2>
       </header>
       <section>
-        <img src={homeIcon} alt="straw man" />
+        <div>
+          <img src={homeIcon} alt="straw man" />
+        </div>
         <div>
           <h1>I have bad news for you</h1>
           <p>

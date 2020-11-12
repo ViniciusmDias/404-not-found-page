@@ -47,26 +47,12 @@ export default createGlobalStyle`
 
   a, button {
     opacity: 1;
-    font-size: 0.875rem;
-    line-height: 21px;
-    letter-spacing: -0.035em;
-    color: var(--e-global-color-button-text);
-    transition: 0.4s ease-in-out opacity;
-    text-transform: uppercase;
 
     &:hover {
       opacity: 0.8;
     }
   }
-
-  strong {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.875rem;
-    line-height: 17px;
-    font-weight: 600;
-    color: var(--e-global-color-text);
-  }
-
+  
   @media (min-width: 800px) {
     h1 {
       font-size: 4rem;
