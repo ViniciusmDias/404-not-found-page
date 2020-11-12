@@ -60,10 +60,11 @@ export default createGlobalStyle`
   }
 
   strong {
-    font-family: 'Space Mono', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
     line-height: 17px;
     font-weight: 600;
+    color: var(--e-global-color-text);
   }
 
   @media (min-width: 800px) {

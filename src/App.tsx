@@ -1,11 +1,12 @@
 import React from 'react';
 import GlobalStyle from './styles/global';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>Hello World</h1>
+      <NotFound>Hello World</NotFound>
     </>
   );
 }
